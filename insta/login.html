@@ -4,7 +4,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        
         <title>Instagram</title>
     </head>
     <body>
@@ -15,11 +14,11 @@
             <div class="continue"><!-- conteiner 1(logo, foto e botões(log in log out))-->
                 <div class="containers"><!--group-->
                     <img src="logo-instagram.png" alt="logo insta" class="logo">
-                    <div class="profile-photo">
-                        <img src="perfil.jpeg" alt="foto perfil"  onMouseOver="aumenta(this)" onMouseOut="diminui(this)">
-                    </div>
-                    <a href="#" class="login">Continue as Lucas_d_Vidotto</a>
-                    <a href="#" class="logout">Remove Account</a>
+                   
+                    <form class="form-login">
+                        <input type="text" id="username" name="user" placeholder="Phone, username or email">
+                        <input type="password" id="pass" name="password" placeholder="Password">
+                    </form>
                 </div>
                 <div class="containers">
                     <p class="not-account">Not Lucas_d_Vidotto?</p>
@@ -32,12 +31,11 @@
                 <div class="app-plays">
                     <p class="get-app">Get the App</p>
                     <div class="download">
-                        <a href="https://apps.apple.com/br/app/instagram/id389801252" class="app-download"></a>
-                        <a href="https://play.google.com/store/apps/details?id=com.instagram.android" class="app-download"></a>
+                        <a href="#" class="app-download"></a>
+                        <a href="#" class="app-download"></a>
                     </div>
                 </div>
             </div> 
         </div>
-        <script type="text/javascript" src="index.js"></script>
     </body>
 </html>
